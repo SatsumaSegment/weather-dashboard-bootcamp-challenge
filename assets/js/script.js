@@ -18,15 +18,15 @@ function getCoords(event) {
     }).then(function(data) {
         coords.push(data[0].lat);
         coords.push(data[1].lon);
-    }).then(getWeatherData(coords)); // Call the getWeatherData function passing the coods array
+        console.log(data);
+        getWeatherData(coords);
+    })
 }
 
 // Function to fetch weather data
 function getWeatherData(coords) {
-    // Round lat and lon coordinates to 2 decimal places
-    var lat = Math.floor(coords[0] * 100) / 100;
-    var lon = Math.floor(coords[1] * 100) / 100;
-    var url = "api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${API}"; // Pass lat and lon to the forcast API
+    // Pass lat and lon to the forcast API
+    var url = `https://api.openweathermap.org/data/2.5/forecast?lat=${coords[0]}&lon=${coords[1]}&appid=${API}`;
 
     // Fetch weather data from API.
     fetch(url).then(function(response) {

@@ -1,0 +1,27 @@
+#form-container {
+    text-align: center;
+}
+
+#form-heading {
+    margin-bottom: 5%;
+}
+
+#search-input {
+    margin-bottom: 5%;
+}
+
+#search-button {
+    background-color: rgb(141, 184, 22);
+    border: 2px solid green;
+    color: azure;
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+#search-button:hover {
+    background-color: rgba(141, 184, 22, 0.75);
+}
+
+#search-button:active {
+    background-color: rgb(115, 150, 19);
+}

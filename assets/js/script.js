@@ -18,7 +18,7 @@ $(document).ready(function () {
             return;
         }
 
-        var url = `http://api.openweathermap.org/geo/1.0/direct?q=${location}&limit=5&appid=${API}` // Geo API for getting lon and lat given user's search
+        var url = `https://api.openweathermap.org/geo/1.0/direct?q=${location}&limit=5&appid=${API}` // Geo API for getting lon and lat given user's search
 
         // Fetch request from API to get coodinates and store in coords array
         fetch(url).then(function(response) {

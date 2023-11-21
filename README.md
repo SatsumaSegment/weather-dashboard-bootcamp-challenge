@@ -2,7 +2,7 @@
 
 ## Description
 
-A Weather Dashboard app built using the Open Weather Map API. This is the eight assignment in the Front-end Skills Bootcamp. For this assignment, we have been tasked with developing a weather app which retrieves data using different APIs.
+A Weather Dashboard app built using the Open Weather Map API. This is the eighth assignment in the Front-end Skills Bootcamp. For this assignment, we have been tasked with developing a weather app which retrieves data using different APIs.
 
 This application allows users to search for the current and future weather conditions in their desiered city. When the user searches for a city, they are presented with a series of `div`s displaying the current weather and the weather for the next 5 days. Each `div` displays the date, temperature, humidity, wind speed and a weather icon, to the user.
 

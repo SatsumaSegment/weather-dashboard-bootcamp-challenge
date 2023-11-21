@@ -14,7 +14,6 @@ function getCoords(event) {
 
     // Check user entered a value and make sure it isn't a number
     if (location === "" || parseInt(location)) {
-        console.log(location);
         return;
     }
 

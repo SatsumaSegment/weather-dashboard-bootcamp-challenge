@@ -29,6 +29,6 @@ N/A
 
 ## Usage
 
-The Weather App can be accessed via this link:
+The Weather App can be accessed via this link: https://satsumasegment.github.io/weather-dashboard-bootcamp-challenge/
 
 Use the input box to search for a city name, the application will the return weather data based on that city. Click the buttons in the history section to display the weather data for these cities.

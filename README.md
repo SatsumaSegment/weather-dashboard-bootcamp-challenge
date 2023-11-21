@@ -12,7 +12,7 @@ The pictures below show the layout of my application and how the backgrounds cha
 ![LA-weather](assets/images/la-weather.png)
 ![Moscow-weather](assets/images/moscow-weather.png)
 
-I used the DayJs API to get the dates and the Open Weather API to get weather the weather data.
+I used the DayJs API to get the dates and the Open Weather API to get the weather data.
 
 The application also features a history section where the user's search history will be stored. The user can then click on these searches and they will be presented with the data for that city. I limited the length of the search history to 10 items and I added a button so the user can clear their history. I used JavaScript to dynamically generate the history buttons and added data attributes of the latitude and longitude.
 
